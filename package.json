@@ -1,4 +1,12 @@
 {
+  "homepage": "https://Priya2922128029.github.io/ExpiryWaste",
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "axios": "^1.13.2",
     "clsx": "^2.1.1",
